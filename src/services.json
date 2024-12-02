@@ -1,0 +1,89 @@
+{
+  "Services": [
+    {
+      "id": "1",
+      "title": "Herrenfriseur – Stilvolle Haarschnitte",
+      "type": "Dienstleistung",
+      "description": "Ich biete professionelle Haarschnitte und Bartpflege für Herren in Berlin. Mit jahrelanger Erfahrung und einem modernen Stil sorge ich dafür, dass Sie bestens aussehen.",
+      "location": "Berlin",
+      "Pricing": "€50 - 60",
+      "company": {
+        "name": "Friseur Karl",
+        "description": "Ich bin ein erfahrener Herrenfriseur mit über 10 Jahren Berufserfahrung. Meine Leidenschaft ist es, moderne und klassische Haarschnitte anzubieten, die perfekt zu Ihnen passen.",
+        "contactEmail": "karlfriseur@example.com",
+        "contactPhone": "555-123-4567"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Koch für private Veranstaltungen",
+      "type": "Dienstleistung",
+      "location": "München",
+      "description": "Ich koche für private oder geschäftliche Anlässe, einschließlich Dinnerpartys, Hochzeiten und Firmenveranstaltungen. Mein Fokus liegt auf frischen, saisonalen Zutaten und kreativem Menüdesign.",
+      "Pricing": "€90 - 100",
+      "company": {
+        "name": "Chefkoch Lukas",
+        "description": "Ich bin ein leidenschaftlicher Koch mit Erfahrung in gehobenen Restaurants und privaten Veranstaltungen. Mein Ziel ist es, unvergessliche kulinarische Erlebnisse zu schaffen.",
+        "contactEmail": "lukaskoch@example.com",
+        "contactPhone": "555-234-5678"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Malerarbeiten – Innen- und Außengestaltung",
+      "type": "Einmalige Dienstleistung",
+      "location": "Hamburg",
+      "description": "Ich biete professionelle Malerarbeiten für Innen- und Außenbereiche an. Egal, ob es sich um eine Wohnung, ein Büro oder ein ganzes Haus handelt – ich bringe Ihre Räume zum Strahlen.",
+      "Pricing": "€80 - 90",
+      "company": {
+        "name": "Malermeister Peter",
+        "description": "Ich bin seit über 15 Jahren in der Malerbranche tätig und habe zahlreiche Projekte abgeschlossen, die von kleinen Wohnungen bis zu großen Gewerbeobjekten reichen.",
+        "contactEmail": "peterdermaler@example.com",
+        "contactPhone": "555-345-6789"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Chorgruppe für Hochzeiten und Events",
+      "type": "Künstlerische Dienstleistung",
+      "description": "Wir sind eine talentierte Chorgruppe und singen bei Hochzeiten, Geburtstagen und anderen Veranstaltungen. Unser Repertoire reicht von klassischer Musik bis hin zu modernen Stücken.",
+      "location": "Köln",
+      "Pricing": "Über €200",
+      "company": {
+        "name": "Chorgruppe Harmonie",
+        "description": "Wir sind ein eingespieltes Team von zehn professionellen Sängern, die für jedes Event die passende Atmosphäre schaffen können.",
+        "contactEmail": "chorharmonie@example.com",
+        "contactPhone": "555-456-7890"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Eventfotograf – Hochzeiten und Geburtstage",
+      "type": "Dienstleistung",
+      "description": "Ich biete hochwertige Fotografie-Dienstleistungen für Hochzeiten, Geburtstage und andere besondere Anlässe. Meine Bilder fangen die schönsten Momente Ihres Events ein.",
+      "location": "Stuttgart",
+      "Pricing": "€125 - 150",
+      "company": {
+        "name": "Fotograf Max",
+        "description": "Ich bin ein professioneller Fotograf mit einem Auge für Details und Emotionen. Meine Mission ist es, unvergessliche Erinnerungen durch meine Kamera festzuhalten.",
+        "contactEmail": "maxfotografie@example.com",
+        "contactPhone": "555-567-8901"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Hochzeitsbäcker – Spezialtorten und Gebäck",
+      "type": "Dienstleistung",
+      "description": "Ich backe individuell gestaltete Hochzeitstorten, Cupcakes und Desserts für Ihren besonderen Tag. Jede Bestellung wird mit Liebe und Präzision gefertigt.",
+      "location": "Frankfurt",
+      "Pricing": "€150 - 175",
+      "company": {
+        "name": "Bäckerin Anna",
+        "description": "Ich bin eine erfahrene Konditorin, die sich auf Hochzeitstorten und personalisierte Desserts spezialisiert hat. Meine Kreationen sind nicht nur lecker, sondern auch wahre Kunstwerke.",
+        "contactEmail": "annasbackstube@example.com",
+        "contactPhone": "555-678-9012"
+      }
+    }
+  ]
+  
+}
