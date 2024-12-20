@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Servicelistings from "./Servicelistings.jsx";
-import Spinner from "./Spinner.jsx";
+import Spinner from "./Spinner.jsx"; 
+import api from "../api"; // import the axios instance
 
 
 import React from 'react'
@@ -11,7 +12,17 @@ const Servicelistingsfile = ({isHome= false}) => {
   const [loading,setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchjobs = async () => {
+    const fetchJobs = async () => {
+      const apiUrl = isHome ? "/Services?_limit=3" : "/Services";
+      try {
+        const res = await api.get(apiUrl); // Use the Axios instance
+        setServices(res.data); // Correct state updater
+      } catch (error) {
+        console.error("Error fetching data", error);
+      } finally {
+        setLoading(false);
+      }
+    /* const fetchjobs = async () => {
       const apiUrl = isHome ? "/api/Services?_limit=3" : "/api/Services";
       try {
         const res = await fetch(apiUrl);
@@ -22,7 +33,7 @@ const Servicelistingsfile = ({isHome= false}) => {
         console.error("Error fetching data", error);
       } finally {
         setLoading(false);
-      }
+      } */
     };
   
     fetchjobs();
